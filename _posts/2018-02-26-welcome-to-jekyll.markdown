@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to aaromnido Jekyll site!
+title: Welcome to aaJekyll site!
 date: 2018-02-26 17:29:16 +0000
 categories: jekyll update
 ---
