@@ -1,0 +1,79 @@
+$night-dark: #133A51
+$night: #264063
+$blue: #0061BF
+$blue-light: #0D74D8
+$sky: #03ABFD
+$sky-light: #80CCFF
+$sky-lighter: #BFE5FF
+$white: #ffffff
+    
+    
+body
+    background: $sky
+    background: linear-gradient(45deg, $blue 50%, $sky 100%)
+    font-family: "Montserrat"
+    
+#sidebar
+    background: transparentize($sky, 0.1)
+
+    #nav a::after,
+    #nav a::before
+        background-color: transparentize($night, 0.5) !important
+
+    #nav a.active:after
+    #nav a.active:before
+        background-color: $white !important
+
+#inicio
+    .inner
+        display: flex
+    
+    .inner-content
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        h1, h2, h3
+            font-weight: 100
+            text-transform: uppercase
+            margin-bottom: 0.5rem
+            line-height: 1em
+        
+        h2
+            letter-spacing: 1.15rem
+            margin-bottom: 1em
+
+        h2, h3
+            color: $sky-lighter
+            font-weight: 400
+            font-size: 28px
+
+    .inner-picture img
+        min-height: 75vh
+
+.program
+
+    h2
+        font-weight: normal
+        strong
+            display: inline-block
+            width: 100%
+
+    header
+        h2
+            padding: 1rem
+            margin-bottom: 0
+            text-align: center
+            font-weight: 700
+            //text-transform: uppercase
+            //font-weight: 100
+            //margin-left: 50px
+
+.organize,
+.location
+    h2
+        text-transform: uppercase
+        font-weight: 100
+
+.footer
+    text-align: center

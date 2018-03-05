@@ -68,7 +68,7 @@
 			a {
 				@include vendor('transition', 'color #{_duration(transition)} ease');
 				border: 0;
-				color: _palette(fg-light);
+				color: transparentize(white, 0.4);
 				display: block;
 				font-size: 0.6em;
 				font-weight: _font(weight-bold);
@@ -85,7 +85,7 @@
 					border-radius: 0.2em;
 					bottom: 0;
 					content: '';
-					height: 0.2em;
+					height: 0em;
 					position: absolute;
 					right: 0;
 					width: 100%;
