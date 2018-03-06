@@ -2721,6 +2721,8 @@ body {
     text-transform: uppercase;
     margin-bottom: 0.5rem;
     line-height: 1em; }
+  #inicio .inner-content h1 {
+    letter-spacing: 0.2em; }
   #inicio .inner-content h2 {
     letter-spacing: 1.15rem;
     margin-bottom: 1em; }
@@ -2751,3 +2753,11 @@ body {
 
 .footer {
   text-align: center; }
+
+.ordinal {
+  display: inline-block; }
+  .ordinal sup {
+    display: inline-block;
+    text-transform: none;
+    font-weight: 100;
+    font-size: 0.7em; }
